@@ -22,6 +22,8 @@ require 'thor'
 
 module Dco
   class CLI < Thor
+    package_name 'Developer Certificate of Origin (dco)'
+
     # Because this isn't the default and exit statuses are what the cool kids do.
     def self.exit_on_failure?
       true
